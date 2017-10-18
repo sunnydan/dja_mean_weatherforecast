@@ -1,0 +1,14 @@
+<fieldset>
+  <legend>&lt;router-outlet&gt;&lt;/router-outlet&gt;</legend>
+  <h1>{{ currentcity.name }}</h1>
+  <div>
+    <ul>
+      <li>Humidity: {{ currentcity.main.humidity }}</li>
+      <li>Temperture (Average): {{ currentcity.main.temp }}</li>
+      <li>Temperture (High): {{ currentcity.main.temp_max }}</li>
+      <li>Temperture (Low): {{ currentcity.main.temp_min }}</li>
+      <li>Status: {{ currentcity.weather[0].main }}</li>
+    </ul>
+    <img src="./../../assets/{{ cityimg }}" alt="city picture">
+  </div>
+</fieldset>

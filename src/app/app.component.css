@@ -1,0 +1,10 @@
+h1, nav {
+    text-align: center;
+}
+nav a {
+    margin-left: -2.5px;
+    margin-right: -2.5px;
+    padding: 3px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
